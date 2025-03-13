@@ -80,3 +80,5 @@ if st.button("Generate Strong Password"):
     new_password = generate_strong_password(password_length, use_special_chars)
     st.success(f"Generated Password: `{new_password}`")
 
+st.markdown("---")  # Adds a separator line
+st.markdown(" **Aleha Shareef** |  Keep Growing & Learning! ⚡")
